@@ -4,7 +4,7 @@ ENGLISH BELOW
 
 ---------------------------------------------------------------------------------------------------------
 Przyjete zalozenia i oznaczenia:
-1) Oznaczenia postaci\
+1. Oznaczenia postaci\
 R - zwykly rebeliant + numer\
 P - programista + numer\
 KL - ksiezniczka Leia\
