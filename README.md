@@ -47,6 +47,9 @@ wejdzie na pole na ktorym stoi detektor to jest on niszczony
 6) Strategia komputera\
 komputer wykonuje ruchy losowe, za kazdym razem ma 3 proby na wykonanie poprawnego ruchu dana postacia
 
+kompilacja linux:
+g++ gwiezdne_wojny.cpp klasy.cpp -o gwiezdne_wojny
+
 ---------------------------------------------------------------------------------------------------------
 
 Star Wars game\
@@ -82,3 +85,6 @@ for example\
 type the initials of character you want to move\
 then the directions of move like in 3) and press enter\
 for example P24 means move the second programmer to the left
+
+compilation linux:
+g++ gwiezdne_wojny.cpp klasy.cpp -o gwiezdne_wojny
