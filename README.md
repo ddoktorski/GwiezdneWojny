@@ -77,7 +77,7 @@ directions\
 for example\
 2 means move up\
 9 means move to the upper right\
-1 means move to the lowwer left
+1 means move to the lower left
 4) How to move\
 type the initials of character you want to move\
 then the directions of move like in 3) and press enter\
