@@ -3,7 +3,7 @@
 ENGLISH BELOW
 
 ---------------------------------------------------------------------------------------------------------
-Gra Star Wars
+Gra Star Wars\
 Celem gry jest dojście do Kanclerza i przekonanie go do przejścia na jasną stronę mocy.
 Przyjete zalozenia i oznaczenia:
 1. Oznaczenia postaci\
@@ -49,7 +49,7 @@ komputer wykonuje ruchy losowe, za kazdym razem ma 3 proby na wykonanie poprawne
 
 ---------------------------------------------------------------------------------------------------------
 
-Star Wars game
+Star Wars game\
 The goal is to find Palpatine and persuade him to abandon the dark side of the force.
 1) Characters' signs\
 R - ordinary rebel + number\
