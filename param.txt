@@ -1,0 +1,12 @@
+dlugosc 15
+szerokosc 20
+promien 2
+czas 10
+ZwykliRebelianci_ilosc 2
+ZwyklyRebeliant_szybkosc 4
+Programisci_ilosc 2
+Programista_szybkosc 1
+LukeSkywalker_szybkosc 4
+Leia_szybkosc 1
+RobotZolnierz_szybkosc 1
+LordVader_szybkosc 1

@@ -1,0 +1,6 @@
+7 9 kanclerz
+7 0 vader
+5 9 robot
+6 7 robot
+0 9 robot
+4 8 robot 
