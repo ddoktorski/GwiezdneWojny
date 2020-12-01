@@ -3,6 +3,8 @@
 ENGLISH BELOW
 
 ---------------------------------------------------------------------------------------------------------
+Gra Star Wars
+Celem gry jest dojście do Kanclerza i przekonanie go do przejścia na jasną stronę mocy.
 Przyjete zalozenia i oznaczenia:
 1. Oznaczenia postaci\
 R - zwykly rebeliant + numer\
@@ -47,6 +49,8 @@ komputer wykonuje ruchy losowe, za kazdym razem ma 3 proby na wykonanie poprawne
 
 ---------------------------------------------------------------------------------------------------------
 
+Star Wars game
+The goal is to find Palpatine and persuade him to abandon the dark side of the force.
 1) Characters' signs\
 R - ordinary rebel + number\
 P - programmer + numebr\
@@ -77,4 +81,4 @@ for example\
 4) How to move\
 type the initials of character you want to move\
 then the directions of move like in 3) and press enter\
-for example P24 means move the second programmer to the left\
+for example P24 means move the second programmer to the left
