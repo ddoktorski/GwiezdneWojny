@@ -176,7 +176,7 @@ Mapa::Mapa(int _d, int _s, int _p) {
   }
 }
 
-//wstawianie postaci na pole jesli to rebeliant to aktualizujemy liczniki
+// wstawianie postaci na pole jesli to rebeliant to aktualizujemy liczniki
 void Mapa::wstawPostac(int a, int b, Postac *p) {
   if(p != nullptr && p->ktoryZespol() == 'R'){
       for(int i = max(0,a - promien); i <= a + promien; i++){
@@ -195,7 +195,7 @@ void Mapa::wstawPole(int a, int b, Pole &p) {
   plansza[a][b] = p;
 }
 
-//analogicznie do wstawiania postaci tutaj zmniejszamy liczniki
+// analogicznie do wstawiania postaci tutaj zmniejszamy liczniki
 void Mapa::usunPostac(int a, int b, Pole &pol) {
   if(pol.jakaPostac()->ktoryZespol() == 'R'){
     for(int i = max(0, a - promien); i <= a + promien; i++)
@@ -211,8 +211,8 @@ void Mapa::usunPostac(int a, int b, Pole &pol) {
   pol.zmienPostac(nullptr);
 }
 
-//jezeli ktos dostawi detektor to zwiekszamy liczniki
-//jezeli ktos usunie detektor to zmniejszamy
+// jezeli ktos dostawi detektor to zwiekszamy liczniki
+// jezeli ktos usunie detektor to zmniejszamy
 void Mapa::aktualizujDetektor(int a, int b) {
   for(int i = max(0,a - promien); i <= a + promien; i++)
     for(int j = max(0,b - promien); j <= b + promien; j++)
@@ -319,7 +319,7 @@ bool Gra::czyOstatecznaWalka(pair<int, int> p, int a, int b) {
   return true;
 }
 
-//przesuniecie postaci, wstawienie/usuniecie detektora
+// przesuniecie postaci, wstawienie/usuniecie detektora
 void Gra::przesun(pair<int, int> p, int a, int b) {
   Postac *post = m.dajPole(p.first, p.second).jakaPostac();
   if(((post->inicjal()[0] == 'R' || post->inicjal() == "KL") && !(m.dajPole(a, b).czyDetektor()))
@@ -336,8 +336,8 @@ void Gra::przesun(pair<int, int> p, int a, int b) {
   postacie.erase(p);
 }
 
-//sprawdzamy czy ruch jest mozliwy
-//jezeli jest to go wykonujemy
+// sprawdzamy czy ruch jest mozliwy
+// jezeli jest to go wykonujemy
 bool Gra::czyDozwolony(pair<int, int> p, Postac *post, string s) {
   int szyb = post->jakaSzybkosc();
   int x = p.first + przejscie[stoi(s.substr(2,3))][0] * szyb;
